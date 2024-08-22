@@ -57,3 +57,4 @@ class TestSerialization:
             assert review_dict['comment'] == 'great!'
             assert 'reviews' not in review_dict['customer']
             assert 'reviews' not in review_dict['item']
+            
